@@ -1,0 +1,98 @@
+{% extends "./includes/header.html" %}
+{% include 'includes/nav.html' %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/movies.css') }}">
+
+<div class="container-fluid overflow-auto">
+  <p class="lead m-0">because you liked: </p>
+  {%if messages%}
+  <div class="d-flex flex-row w-25 pr-3">
+    {% for message in messages %}
+    <div class="p-2">
+      <img src="{{message.url}}">
+      <span>{{message.title}}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+
+<div class="container-fluid pt-2">
+  <div class="row align-items-start">
+    <div class="col-md-2 pt-3">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        {%if movies%}
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <img class="d-block w-100 h-40 pb-2" src="{{movies[0].url}}" data-color="lightblue" alt="First Image">
+            <div class="carousel-caption d-md-block">
+              <div class="hero">
+                <h5>{{movies[0].title}}</h5>
+                <p class="lead">{{movies[0].genres}}</p>
+                <p>{{movies[0].description}} </p>
+              </div>
+            </div>
+          </div>
+          {% for movie in movies[1:4] %}
+          <div class="carousel-item ">
+            <div class="overlay"></div>
+            <img class="d-block w-100 h-100" src="{{movie.url}}" data-color="lightblue" alt="First Image">
+            <div class="carousel-caption d-md-block hero">
+              <h5>{{movie.title}}</h5>
+              <p class="lead">{{movie.genres}}</p>
+              <p>{{movie.description}} </p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="row">
+        {% for movie in movies[4:] %}
+
+        <div class="col-md-2 nopadding">
+          <div class="card text-white bg-dark mb-3">
+            <img class="card-img-top" src="{{movie.url}}" alt="Card image cap">
+            <div class="card-body">
+              <h6 class="card-title">{{movie.title}}</h6>
+              <p class="card-text">{{movie.genres}}</p>
+              <p class="card-text">{{movie.description}}</p>
+              <a href="{{movie.site_url}}" class="btn btn-primary imdb-btn">Go Imdb</a>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<script>
+  $('.carousel').carousel({
+    interval: 6000,
+    pause: "false"
+  });
+</script>
+{% endblock %}
