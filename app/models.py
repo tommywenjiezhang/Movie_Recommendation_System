@@ -55,7 +55,7 @@ def getMovies():
     m = Moviedb()
     movies = m.get_movies()
     rating = m.get_rating()
-    moives_rating = pd.merge(rating,movies,left_on='movie_id', right_on='movieId')
+    moives_rating = pd.merge(rating,movies,left_on='movie_id', right_on='movie_id')
     return moives_rating
 
 def get_popular_movie(df):
@@ -65,3 +65,10 @@ def get_popular_movie(df):
     df.loc[high_index,"number of vote"]  = highest_rating.loc[high_index,"rating"]
     df = df[df["number of vote"] > df["number of vote"].median()]
     return df.drop_duplicates(subset="title").sample(5).reset_index()
+
+def clean_db(movies_file_path, rating_file_path, connection):
+    new_movie_df = pd.read_csv(movies_file_path)
+    new_rating_df = pd.read_csv(rating_file_path)
+    new_rating_df.to_sql(name='rating', con=connection,if_exists= 'replace')
+    new_movie_df.to_sql(name="movies", con=connection,if_exists= 'replace')
+    

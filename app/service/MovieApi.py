@@ -12,7 +12,7 @@ class Movie_api():
         try:
             images_urls = []
             idx = {name: i for i, name in enumerate(list(movies), start=1)} 
-            movies.title = movies.title.apply(lambda x : re.match(r"[A-Za-z\s]+", x).group(0))
+            # movies.title = movies.title.apply(lambda x : re.match(r"[A-Za-z\s]+", x).group(0))
             images_urls = list(run_process(self.item,idx,list(movies.itertuples())))
             return images_urls
         except Exception as e:

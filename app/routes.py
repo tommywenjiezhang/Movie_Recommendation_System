@@ -4,9 +4,11 @@ import pandas as pd
 from app.service.MovieApi import Movie_api
 import re
 import os
-from app.service.algo import pivot, similarty, because_user_liked, CfRec
+import json
 import random
 import pickle
+import traceback
+from app.service.algo import Pipeline
 
 """ 
 Generate the login form (using flask) for the index.html page, where you will 
@@ -23,19 +25,22 @@ def index():
         entries = []
         for entry in user_review.keys():
             entries.append({"user_id": session["user_id"], "movie_id": int(entry), "rating": float(user_review[entry])})
-            create_rating(session["user_id"],int(entry), float(user_review[entry]))
-        m = getMovies()
-        train_matrix = pivot(m.loc[m.index.unique()])
-        sim = similarty(train_matrix)
-        cf = CfRec(train_matrix,m,sim)
-        user_liked = because_user_liked(train_matrix,m, session["user_id"])
-        print(user_liked)
+        input_movie = max(user_review.items(), key = lambda k : k[1])
+        input_movie_name = input_movie[1]
+        mdb = Moviedb()
+        rating = mdb.get_rating()
+        movies = mdb.get_movies()
+        pipe = Pipeline(rating,movies)
+        user_liked = pipe.because_user_liked(user_review)
+        recommended = pipe.predict_movies(input_movie_name)
         m_api = Movie_api()
         liked = m_api.search_movie(user_liked)
-        print(liked)
-        print("user id :{}".format(session["user_id"]))
-        recommended = cf.recommend_user_based(session["user_id"]).drop_duplicates(subset="title").sample(10)
         movie_with_images = m_api.search_movie(recommended)
+
+        print(user_liked)
+        print("===============================")
+        print(recommended)
+
         return render_template("movies.html", messages=liked, movies = movie_with_images)
     m = get_popular_movie(getMovies())
     return render_template('index.html',  movies=m.to_dict('records'))
@@ -47,7 +52,6 @@ def process_movie(movies):
             key = re.sub(re.escape("movie_"),"",movie)
             entries[key] = movies[movie]
         return entries
-
 
 
 

@@ -1,4 +1,4 @@
-app/info.db
+**/info.db
 *.log
 .vscode
 __pycache__

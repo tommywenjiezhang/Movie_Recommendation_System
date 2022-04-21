@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import re
 
 
 class MovieImagesScraper():
@@ -10,6 +11,8 @@ class MovieImagesScraper():
     
     def start_requests(self,keywords):
         query = "+".join(keywords.split(" ")) if " " in keywords else keywords
+        query = clean_movie_title(query)
+        print(query)
         # go to the best buy website
         headers = {'User-agent': 'Mozilla/5.0',"Accept-Encoding": "*",
             "Connection": "keep-alive"}
@@ -31,17 +34,20 @@ class MovieImagesScraper():
                 if "https" in i["src"]:
                     images.append(i["src"])
         except Exception as err:
-            return None
+            return {"images":"https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101028/112815904-no-image-available-icon-flat-vector-illustration.jpg", "desc":"not available", "redirect_url": r.url }
         return {"images":images, "desc":descriptions, "redirect_url": r.url}
 
 
 
+def clean_movie_title(title):
+    return re.sub('[^A-Za-z\s]+', '', title)
 
 
 
 if __name__ == "__main__":
     print("Program started... ")
     m = MovieImagesScraper()
-    url = m.start_requests("Super Man")
+    url = m.start_requests("Magnolia (1999)")
     print(url["desc"])
+    print(url["images"])
     # Use excel to open gpu.csv (the file we just output it )
