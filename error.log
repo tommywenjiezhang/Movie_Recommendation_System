@@ -1099,3 +1099,19 @@
 2022-04-22 15:39:46,471 DEBUG urllib3.connectionpool ThreadPoolExecutor-1_7 : https://www.imdb.com:443 "GET /title/tt0090863/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
 2022-04-22 15:39:46,890 INFO werkzeug Thread-12 : 127.0.0.1 - - [22/Apr/2022 15:39:46] "POST /api HTTP/1.1" 200 -
 2022-04-22 15:39:46,910 INFO werkzeug Thread-26 : 127.0.0.1 - - [22/Apr/2022 15:39:46] "[33mGET /images/not_found.webp HTTP/1.1[0m" 404 -
+2022-04-22 17:14:15,815 INFO numexpr.utils MainThread : Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-04-22 17:14:15,815 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
+2022-04-22 17:14:16,769 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-22 17:14:16,769 INFO werkzeug MainThread :  * Running on http://192.168.1.8:33507/ (Press CTRL+C to quit)
+2022-04-22 17:14:16,770 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-22 17:14:18,236 INFO numexpr.utils MainThread : Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-04-22 17:14:18,236 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
+2022-04-22 17:14:18,753 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-22 17:14:18,764 INFO werkzeug MainThread :  * Debugger PIN: 138-304-102
+2022-04-22 17:14:20,858 INFO werkzeug MainThread :  * Detected change in '/Users/wenjiezhang/developement/data_analysis/19-Recommender-Systems/web_app/recommend_app/main.py', reloading
+2022-04-22 17:14:21,028 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-22 17:14:22,416 INFO numexpr.utils MainThread : Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-04-22 17:14:22,416 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
+2022-04-22 17:14:22,915 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-22 17:14:22,926 INFO werkzeug MainThread :  * Debugger PIN: 138-304-102
