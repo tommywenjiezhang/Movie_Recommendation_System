@@ -68,10 +68,8 @@ def fuzzy_matching(mapper, fav_movie, verbose=True):
     # sort
     match_tuple = sorted(match_tuple, key=lambda x: x[2])[::-1]
     if not match_tuple:
-        print('Oops! No match is found')
         return
     if verbose:
-        print('Found possible matches in our database: {0}\n'.format([x[0] for x in match_tuple]))
         return match_tuple[0][1]
 
 
@@ -82,8 +80,7 @@ class Knn_Recommender():
             self.model.fit(data)
             pickle.dump(self.model, open("model_pkl", "wb")) 
         else:
-            self.model = model
-            pickle.load(open('model_pkl','rb'))
+            self.model = pickle.load(open('model_pkl','rb'))
         self.data = data
         self.movies = movies
 
@@ -91,12 +88,10 @@ class Knn_Recommender():
         self.model.fit(self.data)
         title = self.movies.set_index("movie_id").loc[int(fav_movie)].title
         idx = fuzzy_matching(mapper, title, verbose=True)
-        print(idx)
         distances, indices = self.model.kneighbors(self.data[idx], n_neighbors=n_recommendations+1)
         raw_recommends = sorted(list(zip(indices.squeeze().tolist(), distances.squeeze().tolist())), key=lambda x: x[1])[:0:-1]
         reverse_mapper = {v: k for k, v in mapper.items()}
         movie_idx = [reverse_mapper[idx] for (idx,distance) in raw_recommends]
-        print(movie_idx)
         return self.movies.set_index("title").loc[movie_idx,:].reset_index()
 
 

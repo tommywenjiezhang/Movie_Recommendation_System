@@ -28,12 +28,13 @@ h5 {
 
 .hero {
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 50%;
     z-index: 3;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    transition:opacity 0.5s ease;
     text-shadow: 1px 1px 0 rgba(0,0,0,.75);
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);

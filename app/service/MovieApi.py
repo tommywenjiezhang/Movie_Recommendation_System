@@ -23,8 +23,16 @@ class Movie_api():
         entry = {}
         entry["title"]= movie[idx["title"]]
         entry["genre"]= movie[idx["genres"]]
-        res = self.api.start_requests(entry["title"])
-        entry["url"] = res["images"][0]
-        entry["description"] = res["desc"]
-        entry["site_url"] = res["redirect_url"]
+        entry["movie_id"] = movie[idx["movie_id"]]
+        
+        if "images_url" not in idx or not movie[idx["images_url"]]:
+            res = self.api.start_requests(entry["title"],movie[idx["movie_id"]])
+            entry["url"] = res["images"][0]
+            entry["description"] = res["desc"]
+            entry["site_url"] = res["redirect_url"]
+        else:
+            entry["url"] = movie[idx["images_url"]]
+            entry["description"] = movie[idx["desc"]]
+            entry["site_url"] = movie[idx["site_url"]]
+            
         return entry
