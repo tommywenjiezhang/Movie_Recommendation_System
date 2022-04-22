@@ -22,7 +22,7 @@ def create_app():
     app = Flask(__name__, static_folder='build',static_url_path='')
     app.config.from_pyfile("config.py")
     db.init_app(app)
-    logging.basicConfig(filename='error.log',level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+    logging.basicConfig(filename='error.log',level=logging.DEBUG)
     CORS(app)
     import app.routes as routes
     # Home page (where you will add a new user)

@@ -1115,3 +1115,23 @@
 2022-04-22 17:14:22,416 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
 2022-04-22 17:14:22,915 WARNING werkzeug MainThread :  * Debugger is active!
 2022-04-22 17:14:22,926 INFO werkzeug MainThread :  * Debugger PIN: 138-304-102
+2022-04-22 17:31:39,683 INFO numexpr.utils MainThread : Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-04-22 17:31:39,684 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
+2022-04-22 17:31:40,496 WARNING werkzeug MainThread :  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-22 17:31:40,496 INFO werkzeug MainThread :  * Running on http://192.168.1.8:33507/ (Press CTRL+C to quit)
+2022-04-22 17:31:40,497 INFO werkzeug MainThread :  * Restarting with stat
+2022-04-22 17:31:41,840 INFO numexpr.utils MainThread : Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2022-04-22 17:31:41,840 INFO numexpr.utils MainThread : NumExpr defaulting to 8 threads.
+2022-04-22 17:31:42,299 WARNING werkzeug MainThread :  * Debugger is active!
+2022-04-22 17:31:42,314 INFO werkzeug MainThread :  * Debugger PIN: 138-304-102
+INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:33507/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-304-102
