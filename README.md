@@ -13,6 +13,10 @@ This project was built using
 The movie recommender app recommend movie based on Collaborative filtering algorithm. In general, Collaborative filtering (CF) is more commonly used than content-based systems because it usually gives better results and is relatively easy to understand (from an overall implementation perspective). The algorithm has the ability to do feature learning on its own, which means that it can start to learn for itself what features to use.
 
 <br /><br />
+### To view this project
+
+Go to https://wenjiemovierecommender.herokuapp.com/
+
 ### How to use this Project
 Download the files using the git clone command.
 ```
@@ -30,6 +34,9 @@ $ pip install -r requirements.txt
 ```
 Run the app.py file
 ```
-$ python3 app.py
+$ python3 main.py
 ```
 Type in http://localhost:5555 into your browser to view the project live.
+
+
+
