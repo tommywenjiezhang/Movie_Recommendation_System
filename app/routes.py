@@ -38,13 +38,13 @@ def index():
         m_api = Movie_api()
         # liked = m_api.search_movie(user_liked)
         movie_with_images = m_api.search_movie(recommended)
-
         return json.dumps({ "recommended": movie_with_images})
 
         # return render_template("movies.html", messages=liked, movies = movie_with_images)
     m = get_popular_movie(getMovies())
     m_api = Movie_api()
     popular_m = m_api.search_movie(m)
+    print(popular_m)
     # return render_template('index.html',  movies=m.to_dict('records'))
     return json.dumps({"movies":popular_m})
 

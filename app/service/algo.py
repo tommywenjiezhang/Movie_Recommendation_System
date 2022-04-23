@@ -1,10 +1,4 @@
-
-from tkinter import E
-import pandas as pd
-import numpy as np
-from sklearn.metrics.pairwise import pairwise_distances
 from sklearn.neighbors import NearestNeighbors
-from functools import lru_cache
 from flask import current_app
 from scipy.sparse import csr_matrix
 from fuzzywuzzy import fuzz

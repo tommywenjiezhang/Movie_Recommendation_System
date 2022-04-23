@@ -1135,3 +1135,539 @@ INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not
 INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 138-304-102
+INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.1.8:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:numexpr.utils:Note: NumExpr detected 10 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 138-304-102
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:34] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "[36mGET /spinner.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "GET /static/css/2.86cd6d42.chunk.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "GET /static/js/2.fce71580.chunk.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "[36mGET /static/js/main.fdcc0bc9.chunk.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "[36mGET /static/css/main.22d70f46.chunk.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:35] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Sneakers%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Avatar%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Outbreak%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Thelma%2B%26%2BLouise%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Nell%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0114069/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0105435/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0499549/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0103074/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0110638/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:127.0.0.1 - - [22/Apr/2022 19:45:38] "GET /api HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /static/js/2.fce71580.chunk.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /static/js/main.fdcc0bc9.chunk.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /static/css/main.22d70f46.chunk.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "GET /static/css/2.86cd6d42.chunk.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /spinner.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:23] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Pi%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Firm%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Departed%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Bowling%2Bfor%2BColumbine%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Ace%2BVentura%3A%2BWhen%2BNature%2BCalls%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0138704/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0407887/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0310793/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0112281/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0106918/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:21:36] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Taxi%2BDriver%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Into%2Bthe%2BWild%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Antz%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Harry%2BPotter%2Band%2Bthe%2BOrder%2Bof%2Bthe%2BPhoenix%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Crimson%2BTide%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0758758/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0075314/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120587/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0373889/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0112740/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:27] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Fight%2BClub%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Wallace%2B%26%2BGromit%3A%2BThe%2BWrong%2BTrousers%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Titanic%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Naked%2BGun%3A%2BFrom%2Bthe%2BFiles%2Bof%2BPolice%2BSquad%21%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Batman%2BBegins%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0137523/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0095705/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0108598/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0372784/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120338/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:40] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:40] "GET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:40] "GET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:40] "GET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:40] "GET /api?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:22:41] "GET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Willow%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Crocodile%2BDundee%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Scarface%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Mad%2BMax%3A%2BFury%2BRoad%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Young%2BFrankenstein%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0090555/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0086250/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt1392190/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0096446/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0072431/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "[35m[1mGET /api HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "GET /api?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "GET /api?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "GET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "GET /api?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:23:40] "GET /api?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/app/service/MovieApi.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Stand%2Bby%2BMe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Some%2BLike%2BIt%2BHot%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Dumb%2B%26%2BDumber%2B%28Dumb%2Band%2BDumber%29%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Being%2BJohn%2BMalkovich%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Star%2BWars%3A%2BEpisode%2BIV%2B-%2BA%2BNew%2BHope%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0109686/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0053291/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120601/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0092005/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt8933914/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:25:35] "GET /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=War%2Bof%2Bthe%2BWorlds%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Memento%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Raising%2BArizona%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=X-Men%3A%2BThe%2BLast%2BStand%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Star%2BWars%3A%2BEpisode%2BV%2B-%2BThe%2BEmpire%2BStrikes%2BBack%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt9686194/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0376994/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0209144/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0093822/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0080684/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:25:53] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:26:01] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:42:50] "[36mGET / HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Spider-Man%2B3%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Taken%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Bridge%2Bon%2Bthe%2BRiver%2BKwai%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Antz%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Star%2BWars%3A%2BEpisode%2BVII%2B-%2BThe%2BForce%2BAwakens%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0936501/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0413300/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0050212/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120587/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt2488496/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:43:03] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:43:11] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:47:15] "[36mGET / HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=L%C3%A9on%3A%2BThe%2BProfessional%2B%28a.k.a.%2BThe%2BProfessional%29%2B%28L%C3%A9on%29%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Avengers%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Rock%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Harry%2BPotter%2Band%2Bthe%2BDeathly%2BHallows%3A%2BPart%2B1%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Kill%2BBill%3A%2BVol.%2B1%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt14913834/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0117500/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0266697/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt4154796/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0926084/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:47:28] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 00:47:37] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Spider-Man%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Space%2BJam%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=It%27s%2Ba%2BWonderful%2BLife%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=The%2BButterfly%2BEffect%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Robin%2BHood%3A%2BMen%2Bin%2BTights%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt10872600/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0117705/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0289879/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0107977/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0038650/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:02:00] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:02:09] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:17] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:20] "[36mGET / HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Highlander%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Citizen%2BKane%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Predator%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=X-Men%3A%2BThe%2BLast%2BStand%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Perfect%2BStorm%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0033467/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0091203/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0376994/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0177971/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0093773/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:33] "GET /api HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Shrek%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Da%2BVinci%2BCode%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Monty%2BPython%27s%2BLife%2Bof%2BBrian%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Austin%2BPowers%3A%2BInternational%2BMan%2Bof%2BMystery%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Gladiator%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0382625/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0118655/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt19784100/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0126029/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0172495/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:41] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:06:53] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/app/app/service/algo.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+INFO:werkzeug: * Detected change in '/app/app/service/algo.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://172.17.0.2:5555/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 632-538-354
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Signs%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Big%2BLebowski%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Cruel%2BIntentions%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Outbreak%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=2001%3A%2BA%2BSpace%2BOdyssey%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0118715/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0139134/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0062622/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0286106/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0114069/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:18:22] "GET /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:18:32] "[35m[1mPOST /api HTTP/1.1[0m" 500 -
+DEBUG:flask.app:POST Method
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Stargate%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Waterworld%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Die%2BHard%3A%2BWith%2Ba%2BVengeance%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Firm%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=True%2BLies%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Net%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Disclosure%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Crimson%2BTide%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0118480/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0112864/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0113957/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0114898/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0109635/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0112740/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0106918/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0111503/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Clear%2Band%2BPresent%2BDanger%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Cliffhanger%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0109444/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0106582/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:18:59] "POST /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=American%2BPie%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Charlie%27s%2BAngels%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Cocktail%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Never%2BBeen%2BKissed%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=I%2BKnow%2BWhat%2BYou%2BDid%2BLast%2BSummer%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=10%2BThings%2BI%2BHate%2BAbout%2BYou%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Bridget%2BJones%3A%2BThe%2BEdge%2Bof%2BReason%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Austin%2BPowers%3A%2BThe%2BSpy%2BWho%2BShagged%2BMe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0163651/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt5033998/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0094889/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0317198/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0145660/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0151738/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0119345/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0147800/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=What%2BWomen%2BWant%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Hook%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0207201/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0102057/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:19:22] "POST /api HTTP/1.1" 200 -
+DEBUG:flask.app:POST Method
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Fight%2BClub%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Kill%2BBill%3A%2BVol.%2B2%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Full%2BMetal%2BJacket%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Office%2BSpace%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Snatch%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Truman%2BShow%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Being%2BJohn%2BMalkovich%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Fear%2Band%2BLoathing%2Bin%2BLas%2BVegas%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0137523/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0378194/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0151804/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0093058/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0208092/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120601/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120382/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120669/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Clockwork%2BOrange%2C%2BA%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Reservoir%2BDogs%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0066921/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0105236/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:22:01] "POST /api HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:23:52] "[36mGET / HTTP/1.1[0m" 304 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Cable%2BGuy%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Flintstones%2C%2BThe%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Three%2BKings%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Addams%2BFamily%2BValues%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /find?q=Troy%2B HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.imdb.com:443
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0120188/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0109813/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0115798/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0106220/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://www.imdb.com:443 "GET /title/tt0332452/?ref_=fn_al_tt_1 HTTP/1.1" 200 None
+INFO:werkzeug:172.17.0.1 - - [23/Apr/2022 01:24:04] "GET /api HTTP/1.1" 200 -

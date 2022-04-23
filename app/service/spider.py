@@ -3,9 +3,6 @@ from flask import current_app, url_for
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import re
-import sqlite3
-import csv
-from app.models import MovieMeta
 
 class MovieImagesScraper():
     def __init__(self):
@@ -53,52 +50,52 @@ def clean_movie_title(title):
 
 
 
-def create_link(conn, movie):
+# def create_link(conn, movie):
 
-    sql = ''' INSERT INTO Meta (movie_id,images_url,site_url,desc)
-              VALUES(?,?,?,?); '''
+#     sql = ''' INSERT INTO Meta (movie_id,images_url,site_url,desc)
+#               VALUES(?,?,?,?); '''
 
-    cur = conn.cursor()
-    cur.execute(sql, movie)
-    conn.commit()
+#     cur = conn.cursor()
+#     cur.execute(sql, movie)
+#     conn.commit()
 
-    return cur.lastrowid
+#     return cur.lastrowid
 
 
 
-def insertdb(conn, row):
-    m = MovieImagesScraper()
-    url = m.start_requests(row[2])
-    movie = (row[1], url["images"][0],url["redirect_url"],url["desc"])
-    print("inserting movie {} title {} url {}".format(*movie))
-    create_link(conn, movie)
+# def insertdb(conn, row):
+#     m = MovieImagesScraper()
+#     url = m.start_requests(row[2])
+#     movie = (row[1], url["images"][0],url["redirect_url"],url["desc"])
+#     print("inserting movie {} title {} url {}".format(*movie))
+#     create_link(conn, movie)
 
-def create_connection(db_file):
-    """ create a database connection to the SQLite database
-        specified by db_file
-    :param db_file: database file
-    :return: Connection object or None
-    """
-    conn = None
-    try:
-        conn = sqlite3.connect(db_file)
-    except Error as e:
-        print(e)
+# def create_connection(db_file):
+#     """ create a database connection to the SQLite database
+#         specified by db_file
+#     :param db_file: database file
+#     :return: Connection object or None
+#     """
+#     conn = None
+#     try:
+#         conn = sqlite3.connect(db_file)
+#     except Error as e:
+#         print(e)
 
-    return conn
+#     return conn
 
 if __name__ == "__main__":
     print("Program started... ")
 
-    import pandas as pd
-    import pickle
-    from MovieRunner import run_process
-    conn = create_connection('./app/info.db')
-    df = pd.read_sql("SELECT * FROM movies",conn,index_col="index")
-    # with open("movie_url.csv", mode= "a" ) as csv_file:
-    #     csv_writer = csv.writer(csv_file)
-    for row in df.iloc[955].itertuples():
-        insertdb(conn, row)
+    # import pandas as pd
+    # import pickle
+    # from MovieRunner import run_process
+    # conn = create_connection('./app/info.db')
+    # df = pd.read_sql("SELECT * FROM movies",conn,index_col="index")
+    # # with open("movie_url.csv", mode= "a" ) as csv_file:
+    # #     csv_writer = csv.writer(csv_file)
+    # for row in df.iloc[955].itertuples():
+    #     insertdb(conn, row)
 
 
 

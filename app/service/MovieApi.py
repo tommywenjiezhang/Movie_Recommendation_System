@@ -23,7 +23,7 @@ class Movie_api():
         entry = {}
         entry["title"]= movie[idx["title"]]
         entry["genre"]= movie[idx["genres"]]
-        entry["movie_id"] = movie[idx["movie_id"]]
+        entry["movie_id"] = str(movie[idx["movie_id"]])
         
         if "images_url" not in idx or not movie[idx["images_url"]]:
             res = self.api.start_requests(entry["title"],movie[idx["movie_id"]])

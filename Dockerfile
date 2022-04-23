@@ -1,18 +1,17 @@
-FROM continuumio/miniconda3
+FROM tiangolo/uwsgi-nginx-flask:python3.6
 
-WORKDIR /app
+WORKDIR /app/
 
-# Create the environment:
-COPY environment.yml .
-RUN conda env create -f environment.yml
+COPY requirements.txt /app/
+RUN pip3 install -r ./requirements.txt
 
-# Activate the environment, and make sure it's activated:
-RUN conda activate recommender_system
+ENV ENVIRONMENT production
 
-# copy every content from the local file to the image
+
 COPY . /app
 
-EXPOSE 5000
+EXPOSE 5555
+
 
 # configure the container to run in an executed manner
 ENTRYPOINT [ "python" ]

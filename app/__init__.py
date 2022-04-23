@@ -1,7 +1,4 @@
 from flask import Flask
-import sqlalchemy
-from flask_session import Session
-import os
 from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy
 import logging
