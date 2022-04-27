@@ -10,7 +10,7 @@ This project was built using
 - Sqlite database.
 
 
-The movie recommender app recommend movie based on Collaborative filtering algorithm. In general, Collaborative filtering (CF) is more commonly used than content-based systems because it usually gives better results and is relatively easy to understand (from an overall implementation perspective). The algorithm has the ability to do feature learning on its own, which means that it can start to learn for itself what features to use.
+The movie recommender app recommend movies based on KNN algorithm. In general, K-nearest neighbors (KNN) is a type of supervised learning algorithm used for both regression and classification. KNN tries to predict the correct class for the test data by calculating the distance between the test data and all the training points. Then select the K number of points which is closest to the test data. The KNN algorithm calculates the probability of the test data belonging to the classes of 'K' training data and the class that holds the highest probability will be selected. In the case of regression, the value is the mean of the 'K' selected training points.
 
 <br /><br />
 ### To view this project

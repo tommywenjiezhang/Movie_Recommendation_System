@@ -44,7 +44,6 @@ def index():
     m = get_popular_movie(getMovies())
     m_api = Movie_api()
     popular_m = m_api.search_movie(m)
-    print(popular_m)
     # return render_template('index.html',  movies=m.to_dict('records'))
     return json.dumps({"movies":popular_m})
 
