@@ -5,8 +5,11 @@ This project was built using
 - CSS 
 - Python 
 - Flask (micro web framework) 
-- Flask SQLAlchemy (Flask extension for managing database) 
+- Flask SQLAlchemy (Flask extension for managing database)
   HTML file.
+- Docker
+- Heroku
+- Scitlearn
 - Sqlite database.
 
 
