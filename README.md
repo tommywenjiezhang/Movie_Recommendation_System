@@ -20,6 +20,9 @@ The movie recommender app recommend movies based on KNN algorithm. In general, K
 
 Go to https://wenjiemovierecommender.herokuapp.com/
 
+### Slide
+[Slide Link](https://tommywenjiezhang.github.io/Movie_Recommendation_System)
+
 ### How to use this Project
 Download the files using the git clone command.
 ```
