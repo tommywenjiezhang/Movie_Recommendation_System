@@ -1,6 +1,10 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM python:3.8.0-slim
 
-WORKDIR /app/
+WORKDIR /app/src/
+
+RUN apt-get update \
+&& apt-get install gcc python-tk python3-tk tk-dev -y \
+&& apt-get clean
 
 COPY requirements.txt /app/
 RUN pip3 install -r ./requirements.txt
@@ -8,7 +12,8 @@ RUN pip3 install -r ./requirements.txt
 ENV ENVIRONMENT production
 
 
-COPY . /app
+COPY ./src /app/
+
 
 EXPOSE 5555
 
