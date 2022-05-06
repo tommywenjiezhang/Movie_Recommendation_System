@@ -9,7 +9,7 @@ This project was built using
   HTML file.
 - Docker
 - Heroku
-- Scitlearn
+- Scikit-learn
 - Sqlite database.
 
 
